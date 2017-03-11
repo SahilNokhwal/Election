@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE38F2DB1C81250400392736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2DA1C81250400392736 /* AppDelegate.swift */; };
+		CE38F2DD1C81250400392736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2DC1C81250400392736 /* ViewController.swift */; };
+		CE38F2E01C81250400392736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2DE1C81250400392736 /* Main.storyboard */; };
+		CE38F2E21C81250400392736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2E11C81250400392736 /* Assets.xcassets */; };
+		CE38F2E51C81250400392736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2E31C81250400392736 /* LaunchScreen.storyboard */; };
+		CE38F2F11C8127F200392736 /* ben.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2EC1C8127F200392736 /* ben.jpg */; };
+		CE38F2F21C8127F200392736 /* ber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2ED1C8127F200392736 /* ber.jpg */; };
+		CE38F2F31C8127F200392736 /* clinton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2EE1C8127F200392736 /* clinton.jpg */; };
+		CE38F2F41C8127F200392736 /* ted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2EF1C8127F200392736 /* ted.jpg */; };
+		CE38F2F51C8127F200392736 /* kasich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE38F2F01C8127F200392736 /* kasich.jpg */; };
+		CE38F2F71C81282C00392736 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2F61C81282C00392736 /* Candidate.swift */; };
+		CE38F2F91C81287E00392736 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2F81C81287E00392736 /* Party.swift */; };
+		CE38F2FB1C81290400392736 /* PollFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38F2FA1C81290400392736 /* PollFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE38F2D71C81250400392736 /* Nokhwal_Assignment05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nokhwal_Assignment05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE38F2DA1C81250400392736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE38F2DC1C81250400392736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE38F2DF1C81250400392736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE38F2E11C81250400392736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE38F2E41C81250400392736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE38F2E61C81250400392736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE38F2EC1C8127F200392736 /* ben.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ben.jpg; sourceTree = "<group>"; };
+		CE38F2ED1C8127F200392736 /* ber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ber.jpg; sourceTree = "<group>"; };
+		CE38F2EE1C8127F200392736 /* clinton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clinton.jpg; sourceTree = "<group>"; };
+		CE38F2EF1C8127F200392736 /* ted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ted.jpg; sourceTree = "<group>"; };
+		CE38F2F01C8127F200392736 /* kasich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kasich.jpg; sourceTree = "<group>"; };
+		CE38F2F61C81282C00392736 /* Candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		CE38F2F81C81287E00392736 /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		CE38F2FA1C81290400392736 /* PollFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE38F2D41C81250400392736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE38F2CE1C81250400392736 = {
+			isa = PBXGroup;
+			children = (
+				CE38F2D91C81250400392736 /* Nokhwal_Assignment05 */,
+				CE38F2D81C81250400392736 /* Products */,
+				CE38F2EC1C8127F200392736 /* ben.jpg */,
+				CE38F2ED1C8127F200392736 /* ber.jpg */,
+				CE38F2EE1C8127F200392736 /* clinton.jpg */,
+				CE38F2EF1C8127F200392736 /* ted.jpg */,
+				CE38F2F01C8127F200392736 /* kasich.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		CE38F2D81C81250400392736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE38F2D71C81250400392736 /* Nokhwal_Assignment05.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE38F2D91C81250400392736 /* Nokhwal_Assignment05 */ = {
+			isa = PBXGroup;
+			children = (
+				CE38F2DA1C81250400392736 /* AppDelegate.swift */,
+				CE38F2DC1C81250400392736 /* ViewController.swift */,
+				CE38F2DE1C81250400392736 /* Main.storyboard */,
+				CE38F2E11C81250400392736 /* Assets.xcassets */,
+				CE38F2E31C81250400392736 /* LaunchScreen.storyboard */,
+				CE38F2E61C81250400392736 /* Info.plist */,
+				CE38F2F61C81282C00392736 /* Candidate.swift */,
+				CE38F2F81C81287E00392736 /* Party.swift */,
+				CE38F2FA1C81290400392736 /* PollFactory.swift */,
+			);
+			path = Nokhwal_Assignment05;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE38F2D61C81250400392736 /* Nokhwal_Assignment05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE38F2E91C81250400392736 /* Build configuration list for PBXNativeTarget "Nokhwal_Assignment05" */;
+			buildPhases = (
+				CE38F2D31C81250400392736 /* Sources */,
+				CE38F2D41C81250400392736 /* Frameworks */,
+				CE38F2D51C81250400392736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nokhwal_Assignment05;
+			productName = Nokhwal_Assignment05;
+			productReference = CE38F2D71C81250400392736 /* Nokhwal_Assignment05.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE38F2CF1C81250400392736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nokhwal,Sahil";
+				TargetAttributes = {
+					CE38F2D61C81250400392736 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CE38F2D21C81250400392736 /* Build configuration list for PBXProject "Nokhwal_Assignment05" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE38F2CE1C81250400392736;
+			productRefGroup = CE38F2D81C81250400392736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE38F2D61C81250400392736 /* Nokhwal_Assignment05 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE38F2D51C81250400392736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE38F2F41C8127F200392736 /* ted.jpg in Resources */,
+				CE38F2F31C8127F200392736 /* clinton.jpg in Resources */,
+				CE38F2F21C8127F200392736 /* ber.jpg in Resources */,
+				CE38F2E51C81250400392736 /* LaunchScreen.storyboard in Resources */,
+				CE38F2F51C8127F200392736 /* kasich.jpg in Resources */,
+				CE38F2E21C81250400392736 /* Assets.xcassets in Resources */,
+				CE38F2E01C81250400392736 /* Main.storyboard in Resources */,
+				CE38F2F11C8127F200392736 /* ben.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE38F2D31C81250400392736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE38F2F71C81282C00392736 /* Candidate.swift in Sources */,
+				CE38F2DD1C81250400392736 /* ViewController.swift in Sources */,
+				CE38F2F91C81287E00392736 /* Party.swift in Sources */,
+				CE38F2FB1C81290400392736 /* PollFactory.swift in Sources */,
+				CE38F2DB1C81250400392736 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE38F2DE1C81250400392736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE38F2DF1C81250400392736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE38F2E31C81250400392736 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE38F2E41C81250400392736 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE38F2E71C81250400392736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE38F2E81C81250400392736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE38F2EA1C81250400392736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nokhwal_Assignment05/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nw.Nokhwal-Assignment05";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE38F2EB1C81250400392736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nokhwal_Assignment05/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nw.Nokhwal-Assignment05";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE38F2D21C81250400392736 /* Build configuration list for PBXProject "Nokhwal_Assignment05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE38F2E71C81250400392736 /* Debug */,
+				CE38F2E81C81250400392736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE38F2E91C81250400392736 /* Build configuration list for PBXNativeTarget "Nokhwal_Assignment05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE38F2EA1C81250400392736 /* Debug */,
+				CE38F2EB1C81250400392736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE38F2CF1C81250400392736 /* Project object */;
+}
